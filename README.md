@@ -1,6 +1,14 @@
 # ember-qunit-nested-module-blueprints-polyfill
 
-This README outlines the details of collaborating on this Ember addon.
+This addon provides blueprint overrides for non-acceptance tests in the style of
+"Q-unit nested modules" or "simple q-unit" as described in the RFC https://github.com/emberjs/rfcs/blob/master/text/0232-simplify-qunit-testing-api.md
+
+This is a pollyfill for applications wanting to leverage these blueprints in apps
+using `ember-qunit@^4.1.1` who aren't on an ember source version supporting the new blueprints.   
+
+## Overrides
+- `component-test`
+- more..
 
 ## Installation
 
