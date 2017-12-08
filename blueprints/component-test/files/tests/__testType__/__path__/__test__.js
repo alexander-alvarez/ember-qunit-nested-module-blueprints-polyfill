@@ -34,4 +34,3 @@ module('<%= friendlyTestDescription %>', function(hooks) {
     assert.ok(component);
   });
 });<% } %>
-
