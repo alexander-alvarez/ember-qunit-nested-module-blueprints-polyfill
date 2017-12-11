@@ -1,5 +1,6 @@
 /* eslint-env node */
 module.exports = {
+  command: 'npm run test:blueprints',
   scenarios: [
     {
       name: 'ember-lts-2.8',

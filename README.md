@@ -12,7 +12,7 @@ using `ember-qunit@^4.1.1` who aren't on an ember source version supporting the 
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone git@github.com:alexander-alvarez/ember-qunit-nested-module-blueprints-polyfill.git`
 * `cd ember-qunit-nested-module-blueprints-polyfill`
 * `npm install`
 
