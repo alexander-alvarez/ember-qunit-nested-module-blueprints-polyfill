@@ -19,7 +19,7 @@ describe('Blueprint: component-test', function() {
       return emberNew();
     });
 
-    describe('with ember-cli-qunit@4.1.1', function() {
+    describe('with ember-qunit-nested-module-blueprints-polyfill', function() {
 
       it('component-test x-foo', function() {
         return emberGenerateDestroy(['component-test', 'x-foo'], _file => {
