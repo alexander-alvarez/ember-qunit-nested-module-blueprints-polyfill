@@ -1,7 +1,7 @@
 {
   "name": "ember-qunit-nested-module-blueprints-polyfill",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "1.0.0",
+  "description": "Polyfill for Ember RFC 232 testing blueprints",
   "keywords": [
     "ember-addon"
   ],
