@@ -11,7 +11,7 @@ const expect = chai.expect;
 
 const fixture = require('../helpers/fixture');
 
-describe('Blueprint: component-test', function() {
+describe('Blueprint: controller-test', function() {
   setupTestHooks(this);
 
   describe('in app', function() {
@@ -21,19 +21,13 @@ describe('Blueprint: component-test', function() {
 
     describe('with ember-qunit-nested-module-blueprints-polyfill', function() {
 
-      it('component-test x-foo', function() {
-        return emberGenerateDestroy(['component-test', 'x-foo'], _file => {
-          expect(_file('tests/integration/components/x-foo-test.js'))
-          .to.equal(fixture('component-test/rfc232.js'));
+      it('controller-test foo', function() {
+        return emberGenerateDestroy(['controller-test', 'foo'], _file => {
+          expect(_file('tests/unit/controllers/foo-test.js'))
+          .to.equal(fixture('controller-test/rfc232.js'));
         });
       });
 
-      it('component-test x-foo --unit', function() {
-        return emberGenerateDestroy(['component-test', 'x-foo', '--unit'], _file => {
-          expect(_file('tests/unit/components/x-foo-test.js'))
-          .to.equal(fixture('component-test/rfc232-unit.js'));
-        });
-      });
     });
 
   });
