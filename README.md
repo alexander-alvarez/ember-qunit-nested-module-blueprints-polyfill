@@ -6,15 +6,25 @@ This addon provides blueprint overrides for non-acceptance tests in the style of
 This is a pollyfill for applications wanting to leverage these blueprints in apps
 using `ember-qunit@^4.1.1` who aren't on an ember source version supporting the new blueprints.   
 
+## Installation
+
+`ember install ember-qunit-nested-module-blueprints-polyfill`
+
 ## Overrides
 - `component-test`
-- more..
+- `controller-test`
+- `helper-test`
+- `initializer-test`
+- `instance-initializer-test`
+- `mixin-test`
+- `route-test`
+- `service-test`
+- `util-test`
 
-## Installation
+## Development
 
 * `git clone git@github.com:alexander-alvarez/ember-qunit-nested-module-blueprints-polyfill.git`
 * `cd ember-qunit-nested-module-blueprints-polyfill`
-* `npm install`
 
 ## Running
 
