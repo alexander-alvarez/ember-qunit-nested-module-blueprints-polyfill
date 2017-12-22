@@ -19,7 +19,6 @@
     "test:blueprints": "node node-tests/nodetest-runner.js"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.6.0",
     "ember-cli-get-component-path-option": "^1.0.0",
     "ember-cli-is-package-missing": "^1.0.0",
     "ember-cli-string-utils": "^1.1.0",
@@ -29,6 +28,7 @@
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^3.0.0",
     "ember-cli": "~2.16.2",
+    "ember-cli-babel": "^6.6.0",
     "ember-cli-blueprint-test-helpers": "^0.18.3",
     "ember-cli-dependency-checker": "^2.0.0",
     "ember-cli-eslint": "^4.0.0",
